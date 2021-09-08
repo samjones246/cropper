@@ -18,6 +18,7 @@ def main():
 
     # Get input files
     paths = glob(f"./*.{ext}")
+    print(f"Found {len(paths)} input files, starting...")
 
     # Iterate over input files, crop and save
     success = 0
