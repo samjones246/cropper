@@ -43,4 +43,4 @@ if __name__ == "__main__":
     except Exception as e:
         print(e)
     finally:
-        input("Press any key to finish...")
+        input("Press enter to finish...")
